@@ -185,6 +185,13 @@ type DataFtd struct {
 	StatusWeichen                                    *StatusWeichen          `zusi:"0092" json:"status_weichen,omitempty"`
 	ZugUndBremsGesamtkraftAbsolutNormiert            *float32                `zusi:"0093" json:"zug_und_brems_gesamtkraft_absolut_normiert,omitempty"`             // Single: 1 ((0...1) normiert auf aktuelle Fmax
 	SteuerwagenZugUndBremsGesamtkraftAbsolutNormiert *float32                `zusi:"0094" json:"steuerwagen_zug_und_brems_gesamtkraft_absolut_normiert,omitempty"` // Single: 1 ((0...1) normiert auf aktuelle Fmax
+	StatusSignal                                     *StatusSignal           `zusi:"00B4" json:"signal_status,omitempty"`
+}
+
+// 11.3.3.3.11
+type StatusSignal struct {
+	Abstand                   *float32 `zusi:"0001" json:"abstand,omitempty"`
+	Zulaessigegeschwindigkeit *float32 `zusi:"0002" json:"zuleassigegeschwindigkeit,omitempty"`
 }
 
 // 5.3.3.3.2
