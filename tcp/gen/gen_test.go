@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
+	"github.com/Callahari/zusi-go/tcp/message/fahrpult"
 	"github.com/stretchr/testify/assert"
-	"github.com/zusi/zusi-go/tcp/message/fahrpult"
 )
 
 func TestIntegration(t *testing.T) {

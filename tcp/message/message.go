@@ -3,7 +3,7 @@ package message
 import (
 	"encoding/json"
 
-	"github.com/zusi/zusi-go/tcp/message/fahrpult"
+	"github.com/Callahari/zusi-go/tcp/message/fahrpult"
 )
 
 type Message struct {

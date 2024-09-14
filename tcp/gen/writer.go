@@ -13,7 +13,7 @@ import (
 )
 
 const (
-	PkgPath    = "github.com/zusi/zusi-go"
+	PkgPath    = "github.com/Callahari/zusi-go"
 	TcpPath    = PkgPath + "/tcp"
 	GenPath    = TcpPath + "/gen"
 	CommonPath = TcpPath + "/common"

@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"testing"
 
+	"github.com/Callahari/zusi-go/tcp/message"
 	"github.com/stretchr/testify/assert"
-	"github.com/zusi/zusi-go/tcp/message"
 )
 
 func TestMarshal(t *testing.T) {

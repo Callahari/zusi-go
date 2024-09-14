@@ -1,8 +1,8 @@
 package fahrpult
 
 import (
-	"github.com/zusi/zusi-go/tcp/message/fahrpult"
-	"github.com/zusi/zusi-go/tcp/message/fst"
+	"github.com/Callahari/zusi-go/tcp/message/fahrpult"
+	"github.com/Callahari/zusi-go/tcp/message/fst"
 )
 
 func (c *Client) SubscribeData(fstIds ...fst.FuehrerstandId) error {

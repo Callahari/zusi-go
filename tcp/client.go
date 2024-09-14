@@ -9,7 +9,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/zusi/zusi-go/tcp/message"
+	"github.com/Callahari/zusi-go/tcp/message"
 )
 
 type Client struct {

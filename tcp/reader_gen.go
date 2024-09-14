@@ -5,8 +5,8 @@ package tcp
 import (
 	"errors"
 	"fmt"
-	"github.com/zusi/zusi-go/tcp/message"
-	"github.com/zusi/zusi-go/tcp/message/fahrpult"
+	"github.com/Callahari/zusi-go/tcp/message"
+	"github.com/Callahari/zusi-go/tcp/message/fahrpult"
 	"io"
 )
 

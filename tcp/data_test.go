@@ -1,8 +1,8 @@
 package tcp
 
 import (
-	"github.com/zusi/zusi-go/tcp/message"
-	"github.com/zusi/zusi-go/tcp/message/fahrpult"
+	"github.com/Callahari/zusi-go/tcp/message"
+	"github.com/Callahari/zusi-go/tcp/message/fahrpult"
 )
 
 var helloTestMessageBytes = []byte{

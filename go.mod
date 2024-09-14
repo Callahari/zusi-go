@@ -1,4 +1,4 @@
-module github.com/zusi/zusi-go
+module github.com/Callahari/zusi-go
 
 go 1.22
 

@@ -4,7 +4,7 @@ import (
 	"encoding/xml"
 	"fmt"
 
-	"github.com/zusi/zusi-go/files"
+	"github.com/Callahari/zusi-go/files"
 )
 
 type Reader struct {

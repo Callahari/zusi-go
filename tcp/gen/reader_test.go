@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/Callahari/zusi-go/tcp/message"
 	"github.com/stretchr/testify/assert"
-	"github.com/zusi/zusi-go/tcp/message"
 )
 
 type blaStruct struct {
@@ -67,7 +67,7 @@ func TestForField(t *testing.T) {
 		assert.Equal(t, "struct", field.FieldType)
 
 		assert.Equal(t, "subStruct", field.StructType)
-		assert.Equal(t, "github.com/zusi/zusi-go/tcp/gen", field.StructPkgPath)
+		assert.Equal(t, "github.com/Callahari/zusi-go/tcp/gen", field.StructPkgPath)
 	})
 
 	t.Run("field with substruct slice", func(t *testing.T) {
@@ -82,7 +82,7 @@ func TestForField(t *testing.T) {
 		assert.Equal(t, "struct", field.FieldType)
 
 		assert.Equal(t, "subStruct", field.StructType)
-		assert.Equal(t, "github.com/zusi/zusi-go/tcp/gen", field.StructPkgPath)
+		assert.Equal(t, "github.com/Callahari/zusi-go/tcp/gen", field.StructPkgPath)
 	})
 
 	t.Run("field with int32 slice", func(t *testing.T) {
@@ -117,5 +117,5 @@ func TestReflectMessage(t *testing.T) {
 	assert.NoError(t, err)
 	assert.Len(t, res.Fields, 2)
 	assert.Equal(t, "testStruct", res.TypeName)
-	assert.Equal(t, "github.com/zusi/zusi-go/tcp/gen", res.PkgPath)
+	assert.Equal(t, "github.com/Callahari/zusi-go/tcp/gen", res.PkgPath)
 }

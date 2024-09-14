@@ -8,7 +8,7 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/zusi/zusi-go/tcp/message"
+	"github.com/Callahari/zusi-go/tcp/message"
 )
 
 func MarshalMessage(message message.Message) ([]byte, error) {

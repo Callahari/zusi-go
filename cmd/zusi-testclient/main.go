@@ -7,9 +7,9 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/zusi/zusi-go/tcp"
-	"github.com/zusi/zusi-go/tcp/fahrpult"
-	msg "github.com/zusi/zusi-go/tcp/message/fahrpult"
+	"github.com/Callahari/zusi-go/tcp"
+	"github.com/Callahari/zusi-go/tcp/fahrpult"
+	msg "github.com/Callahari/zusi-go/tcp/message/fahrpult"
 )
 
 var zusiUri = flag.String("zusi", "localhost:1436", "uri of zusi server")

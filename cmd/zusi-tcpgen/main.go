@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/zusi/zusi-go/tcp/gen"
-	"github.com/zusi/zusi-go/tcp/message"
+	"github.com/Callahari/zusi-go/tcp/gen"
+	"github.com/Callahari/zusi-go/tcp/message"
 )
 
 var rootPath = flag.String("root", "", "root path of repository")
